@@ -1,12 +1,12 @@
 # contenedor-frontend
 TAS8 - Contenerización de aplicación Frontend con React y comunicación con API REST
-###1. Título
+## 1. Título
 Contenerización de una Aplicación Frontend con React y Backend con API REST utilizando Docker
 
-###2. Tiempo de duración
+## 2. Tiempo de duración
 El tiempo estimado para completar el despliegue fue de 200 minutos.
 
-###3. Fundamentos
+## 3. Fundamentos
 Dockerfile
 Un Dockerfile define los pasos para construir una imagen Docker. Este archivo contiene una serie de instrucciones que permiten transformar una imagen base en una imagen personalizada para la aplicación frontend con React y el backend con API REST.
 
@@ -23,7 +23,7 @@ Luego, se copia la aplicación final en una imagen más ligera sin dependencias 
 
 Este enfoque es ideal para aplicaciones frontend en React y backend en Node.js, reduciendo el consumo de recursos.
 
-###4. Conocimientos previos
+## 4. Conocimientos previos
 Para realizar el despliegue, es necesario conocer:
 
 Fundamentos de React para el desarrollo frontend.
@@ -38,7 +38,7 @@ Uso de .env para definir variables de configuración.
 
 Fundamentos de bases de datos relacionales y PostgreSQL.
 
-###5. Objetivos a alcanzar
+## 5. Objetivos a alcanzar
 Contenerizar la aplicación frontend con React mediante Docker.
 
 Contenerizar la API REST con Node.js y Express utilizando Docker.
@@ -53,14 +53,14 @@ Verificar la conectividad entre el frontend y la API REST.
 
 Validar la comunicación entre la API REST y PostgreSQL.
 
-###6. Equipo necesario
+## 6. Equipo necesario
 Computador con Docker instalado.
 
 Navegador web para acceder al frontend en React.
 
 Conexión a internet para obtener imágenes y documentación.
 
-###7. Material de apoyo
+## 7. Material de apoyo
 Documentación oficial de Docker.
 
 Guía de Docker Cheatsheet.
@@ -69,7 +69,7 @@ Repositorio del proyecto backend y frontend.
 
 Videos tutoriales para referencia.
 
-###8. Procedimiento
+## 8. Procedimiento
 Pasos
 Clonar el repositorio del proyecto backend y frontend.
 
@@ -97,7 +97,7 @@ Implementar Docker Compose para los contenedores del backend, frontend y base de
 
 Verificar el acceso al frontend en localhost y la correcta visualización de los datos.
 
-###9. Resultados esperados
+## 9. Resultados esperados
 La aplicación frontend ha sido contenerizada con éxito usando Dockerfile y multi-stage build.
 
 La API REST del backend ha sido contenerizada con éxito.
@@ -110,7 +110,7 @@ Se verificó la correcta comunicación entre la aplicación frontend y la API RE
 
 Capturas de pantalla evidencian el proceso desde la clonación hasta el despliegue exitoso.
 
-###10. Bibliografía
+## 10. Bibliografía
 Multi-stage | Docker Docs
 
 Docker para React: cómo contenerizar tu frontend
