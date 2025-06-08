@@ -5,7 +5,9 @@ TAS8 - Contenerización de aplicación Frontend con React y comunicación con AP
 ---
 ## 1. Título
 Contenerización de una Aplicación Frontend con React y Backend con API REST utilizando Docker
-
+---
+![image](https://github.com/user-attachments/assets/14996811-426f-4d12-acb0-d15b7e4ccd04)
+---
 ## 2. Tiempo de duración
 El tiempo estimado para completar el despliegue fue de 200 minutos.
 
