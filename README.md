@@ -88,8 +88,6 @@ Definir el archivo Dockerfile para el frontend etapa 2
 ---
 ![image](https://github.com/user-attachments/assets/3449e4c0-0669-4e7a-be41-38e6da162572)
 ---
-Construir y ejecutar los contenedores del backend y frontend con Docker.
----
 Verificar si la construcción de las imágenes y los contenedores es correcta.
 ---
 ![image](https://github.com/user-attachments/assets/0103f9f6-21d4-4f87-a0e3-4e52dc12351e)
@@ -108,13 +106,16 @@ Ejecutar sudo docker ps para comprobar los contenedores en ejecución.
 ---
 Implementar Docker Compose para los contenedores del backend, frontend y base de datos.
 ----
+![image](https://github.com/user-attachments/assets/3abdcaad-92f1-4ac0-b658-a06cb85a42a6)
+---
 ![image](https://github.com/user-attachments/assets/4edcf59f-0432-4109-a78f-46d454ebdb31)
-----
-![image](https://github.com/user-attachments/assets/88c564c8-8e86-485c-a367-df4c3973e88b)
 ---
 Verificar el acceso al frontend en localhost y la correcta visualización de los datos.
 ---
-
+![image](https://github.com/user-attachments/assets/0aeb802b-7b4c-4058-8bab-6b5914682a2d)
+----
+![image](https://github.com/user-attachments/assets/1b310437-12d9-49bf-b8ab-aa5dc52b16d7)
+---
 
 ## 9. Resultados esperados
 La aplicación frontend ha sido contenerizada con éxito usando Dockerfile y multi-stage build.
