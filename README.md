@@ -14,12 +14,16 @@ El tiempo estimado para completar el despliegue fue de 200 minutos.
 ## 3. Fundamentos
 Dockerfile
 Un Dockerfile define los pasos para construir una imagen Docker. Este archivo contiene una serie de instrucciones que permiten transformar una imagen base en una imagen personalizada para la aplicación frontend con React y el backend con API REST.
-
+---
+![image](https://github.com/user-attachments/assets/5c8d61a3-ab96-43c4-aa41-099b8414a0d9)
+---
 La construcción de una imagen se realiza con docker build, agregando capas progresivamente. Para optimizar este proceso, se utiliza multi-stage build, lo que permite generar imágenes más ligeras y seguras.
 
 Multi-stage Build
 Las compilaciones multietapa permiten separar el entorno de desarrollo del entorno de ejecución final, reduciendo el tamaño de la imagen y minimizando vulnerabilidades.
-
+---
+![image](https://github.com/user-attachments/assets/3b148c61-29ef-4267-9a6e-67f579872f72)
+---
 En este método:
 
 Se descargan dependencias y se compila el código en una primera etapa.
@@ -70,37 +74,47 @@ Documentación oficial de Docker.
 
 Guía de Docker Cheatsheet.
 
-Repositorio del proyecto backend y frontend.
+Repositorio del proyecto backend y frontend del proyecto de titulacion.
 
 Videos tutoriales para referencia.
 
 ## 8. Procedimiento
 Pasos
-Clonar el repositorio del proyecto backend y frontend.
-
-Crear archivo .env con las variables necesarias para ambos proyectos.
-
-Configurar la base de datos PostgreSQL y pgAdmin.
-
-Definir el archivo Dockerfile para el backend utilizando multi-stage build.
-
-Definir el archivo Dockerfile para el frontend utilizando multi-stage build.
-
+Definir el archivo Dockerfile para el backend etapa 1
+---
+![image](https://github.com/user-attachments/assets/066ba7ed-a9d5-4aa5-a95c-d7ce7b6c3650)
+---
+Definir el archivo Dockerfile para el frontend etapa 2
+---
+![image](https://github.com/user-attachments/assets/3449e4c0-0669-4e7a-be41-38e6da162572)
+---
 Construir y ejecutar los contenedores del backend y frontend con Docker.
-
+---
 Verificar si la construcción de las imágenes y los contenedores es correcta.
-
-Validar la conexión entre el backend y la base de datos.
-
-Crear el endpoint API REST en el backend para la entidad específica.
-
+---
+![image](https://github.com/user-attachments/assets/0103f9f6-21d4-4f87-a0e3-4e52dc12351e)
+---
+Docker compose proyecto Futbol
+----
+![image](https://github.com/user-attachments/assets/4f2de168-af4f-4849-a4f2-0321037048a8)
+----
 Configurar el frontend para consumir los datos del endpoint API REST.
-
+---
+![image](https://github.com/user-attachments/assets/53361e9d-2fe6-453d-b72c-7afc7c0faf8a)
+---
 Ejecutar sudo docker ps para comprobar los contenedores en ejecución.
-
+---
+![image](https://github.com/user-attachments/assets/6d0220fc-f365-47aa-9882-4bf5a0bef380)
+---
 Implementar Docker Compose para los contenedores del backend, frontend y base de datos.
-
+----
+![image](https://github.com/user-attachments/assets/4edcf59f-0432-4109-a78f-46d454ebdb31)
+----
+![image](https://github.com/user-attachments/assets/88c564c8-8e86-485c-a367-df4c3973e88b)
+---
 Verificar el acceso al frontend en localhost y la correcta visualización de los datos.
+---
+
 
 ## 9. Resultados esperados
 La aplicación frontend ha sido contenerizada con éxito usando Dockerfile y multi-stage build.
