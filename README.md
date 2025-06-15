@@ -162,8 +162,3 @@ Docker Docs. (n.d.). Use multi-stage builds. Recuperado el 15 de junio de 2025, 
 IONOS. (n.d.). ¿Qué es el Dockerfile y cómo funciona?. Recuperado el 15 de junio de 2025, de https://www.ionos.es/digitalguide/servidores/know-how/dockerfile/
 Docker para React: cómo contenerizar tu frontend
 
-Construcción multietapa Docker - Josef Jebavý's blog
-
-¿Qué es el Dockerfile? - IONOS
-
-Docker Compose para proyectos full-stack: backend y frontend
