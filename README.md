@@ -21,6 +21,16 @@ La construcción de una imagen se realiza con docker build, agregando capas prog
 
 Multi-stage Build
 Las compilaciones multietapa permiten separar el entorno de desarrollo del entorno de ejecución final, reduciendo el tamaño de la imagen y minimizando vulnerabilidades.
+
+"Las compilaciones multietapa en Docker mejoran la eficiencia del proceso al eliminar dependencias innecesarias en la imagen final, garantizando un entorno más liviano y seguro." (Docker Docs, 2025)
+
+En este método:
+
+Se descargan dependencias y se compila el código en una primera etapa.
+
+Luego, se copia la aplicación final en una imagen más ligera sin dependencias innecesarias.
+
+Este enfoque reduce el consumo de recursos y mejora la seguridad del contenedor.
 ---
 ![image](https://github.com/user-attachments/assets/3b148c61-29ef-4267-9a6e-67f579872f72)
 ---
@@ -31,6 +41,7 @@ Se descargan dependencias y se compila el código en una primera etapa.
 Luego, se copia la aplicación final en una imagen más ligera sin dependencias innecesarias.
 
 Este enfoque es ideal para aplicaciones frontend en React y backend en Node.js, reduciendo el consumo de recursos.
+
 
 ## 4. Conocimientos previos
 Para realizar el despliegue, es necesario conocer:
