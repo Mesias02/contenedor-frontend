@@ -13,14 +13,19 @@ El tiempo estimado para completar el despliegue fue de 200 minutos.
 
 ## 3. Fundamentos
 Dockerfile
-Un Dockerfile define los pasos para construir una imagen Docker. Este archivo contiene una serie de instrucciones que permiten transformar una imagen base en una imagen personalizada para la aplicación frontend con React y el backend con API REST.
+
+El Dockerfile es un archivo que define los pasos necesarios para construir una imagen Docker. En este archivo se especifica cómo configurar el entorno del contenedor, incluyendo la instalación de dependencias, la compilación del código y la preparación de archivos para producción. Este mecanismo es utilizado tanto en el frontend desarrollado con React como en el backend basado en Node.js y Express. Cada instrucción en el Dockerfile representa una capa de la imagen, y todas se ejecutan de forma secuencial al invocar el comando docker build (Docker Docs, n.d.).
+
 ---
 ![image](https://github.com/user-attachments/assets/5c8d61a3-ab96-43c4-aa41-099b8414a0d9)
 ---
 La construcción de una imagen se realiza con docker build, agregando capas progresivamente. Para optimizar este proceso, se utiliza multi-stage build, lo que permite generar imágenes más ligeras y seguras.
 
 Multi-stage Build
-Las compilaciones multietapa permiten separar el entorno de desarrollo del entorno de ejecución final, reduciendo el tamaño de la imagen y minimizando vulnerabilidades.
+
+La técnica de multi-stage build (compilaciones multietapa) es ampliamente recomendada para separar el proceso de construcción del de ejecución. Esto permite que solo los archivos necesarios lleguen a la imagen final, eliminando herramientas de desarrollo, archivos temporales o dependencias innecesarias, lo cual optimiza el tamaño y mejora la seguridad de los contenedores (IONOS, n.d.; Docker Docs, n.d.).
+
+"Las compilaciones multietapa en Docker mejoran la eficiencia del proceso al eliminar dependencias innecesarias en la imagen final, garantizando un entorno más liviano y seguro" (Docker Docs, n.d.).
 
 "Las compilaciones multietapa en Docker mejoran la eficiencia del proceso al eliminar dependencias innecesarias en la imagen final, garantizando un entorno más liviano y seguro." (Docker Docs, 2025)
 
@@ -144,6 +149,9 @@ Capturas de pantalla evidencian el proceso desde la clonación hasta el desplieg
 ## 10. Bibliografía
 Multi-stage | Docker Docs
 
+Docker Docs. (n.d.). Use multi-stage builds. Recuperado el 15 de junio de 2025, de https://docs.docker.com/develop/develop-images/multistage-build/
+
+IONOS. (n.d.). ¿Qué es el Dockerfile y cómo funciona?. Recuperado el 15 de junio de 2025, de https://www.ionos.es/digitalguide/servidores/know-how/dockerfile/
 Docker para React: cómo contenerizar tu frontend
 
 Construcción multietapa Docker - Josef Jebavý's blog
