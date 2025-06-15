@@ -36,6 +36,7 @@ Se descargan dependencias y se compila el código en una primera etapa.
 Luego, se copia la aplicación final en una imagen más ligera sin dependencias innecesarias.
 
 Este enfoque reduce el consumo de recursos y mejora la seguridad del contenedor.
+
 ---
 ![image](https://github.com/user-attachments/assets/3b148c61-29ef-4267-9a6e-67f579872f72)
 ---
@@ -97,36 +98,43 @@ Videos tutoriales para referencia.
 ## 8. Procedimiento
 Pasos
 Definir el archivo Dockerfile para el backend etapa 1
+
 ---
 ![image](https://github.com/user-attachments/assets/066ba7ed-a9d5-4aa5-a95c-d7ce7b6c3650)
 ---
 Definir el archivo Dockerfile para el frontend etapa 2
+
 ---
 ![image](https://github.com/user-attachments/assets/3449e4c0-0669-4e7a-be41-38e6da162572)
 ---
 Verificar si la construcción de las imágenes y los contenedores es correcta.
+
 ---
 ![image](https://github.com/user-attachments/assets/0103f9f6-21d4-4f87-a0e3-4e52dc12351e)
 ---
 Docker compose proyecto Futbol
+
 ----
 ![image](https://github.com/user-attachments/assets/4f2de168-af4f-4849-a4f2-0321037048a8)
 ----
 Configurar el frontend para consumir los datos del endpoint API REST.
+
 ---
 ![image](https://github.com/user-attachments/assets/53361e9d-2fe6-453d-b72c-7afc7c0faf8a)
 ---
 Ejecutar sudo docker ps para comprobar los contenedores en ejecución.
+
 ---
 ![image](https://github.com/user-attachments/assets/6d0220fc-f365-47aa-9882-4bf5a0bef380)
 ---
 Implementar Docker Compose para los contenedores del backend, frontend y base de datos.
-----
+
 ![image](https://github.com/user-attachments/assets/3abdcaad-92f1-4ac0-b658-a06cb85a42a6)
 ---
 ![image](https://github.com/user-attachments/assets/4edcf59f-0432-4109-a78f-46d454ebdb31)
 ---
 Verificar el acceso al frontend en localhost y la correcta visualización de los datos.
+
 ---
 ![image](https://github.com/user-attachments/assets/0aeb802b-7b4c-4058-8bab-6b5914682a2d)
 ----
